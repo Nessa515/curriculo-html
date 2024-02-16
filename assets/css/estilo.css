@@ -39,6 +39,13 @@
 .menu > ul > li{
     display: inline;
 }
+
+.foto-perfil{
+    width: 122px;
+    height: 122px;
+    border: 2px #FFFFFF solid;
+    border-radius: 50%;
+}
 .apresentacao{
     background: rgb(72, 98, 136);
 
@@ -47,6 +54,8 @@
     color: #FFFFFF;
     text-align: center;
     height: 500px;
+
+    padding-top: 100px;
 }
 .secao{
     margin: 8px;
