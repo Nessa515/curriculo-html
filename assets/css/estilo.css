@@ -57,7 +57,22 @@
 
     padding-top: 100px;
 }
+
+.redes-sociais{
+    padding: 8px;
+}
+
+.redes-sociais > img{
+    padding: 8px;
+}
 .secao{
     margin: 8px;
+}
+
+
+.galeria > img{
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-left: 15px;
 }
 
