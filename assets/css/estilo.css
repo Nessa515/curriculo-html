@@ -1,6 +1,7 @@
 :root{
     --cor-primaria: blueviolet;
     --cor-secundaria: #718387;
+    --font-primaria: "Quicksand", sans-serif;
 }
 
 * {
@@ -67,6 +68,11 @@
     padding-top: 100px;
 }
 
+.apresentacao > h1{
+    font-family: var(--font-primaria);
+    font-size: 32px;
+}
+
 .redes-sociais{
     padding: 8px;
 }
@@ -87,17 +93,20 @@
     font-weight: 500;
     margin-bottom: 10px;
     font-size: 24px;
+    font-family: var(--font-primaria);
 }
 
 .secao > p{
     font-weight: 400;
     width: 1200px;
     margin-bottom: 20px;
+    font-family: var(--font-primaria);
 }
 
 
 .galeria > img{
-    padding-top: 20px;
-    padding-right: 80px;
-    padding-left: 150px;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 150px;
+    border: 1px #98336C solid;
 }
